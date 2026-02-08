@@ -98,7 +98,7 @@ int main(void) {
     ssd1306_Fill(Black);
     ssd1306_DrawBitmap(5, 15, gear_32x32, 32, 32, White);
     ssd1306_SetCursor(45, 12);
-    ssd1306_WriteString("EGE OTTO", Font_7x10, White);
+    ssd1306_WriteString("EGE EEE", Font_7x10, White);
     ssd1306_SetCursor(45, 27);
     ssd1306_WriteString("Monitoring", Font_7x10, White);
     ssd1306_SetCursor(45, 42);
@@ -209,4 +209,5 @@ void Error_Handler(void) {
   __disable_irq();
   while (1) {}
 }
+
 
