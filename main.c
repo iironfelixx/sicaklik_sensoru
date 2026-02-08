@@ -1,8 +1,4 @@
 /* USER CODE BEGIN Header */
-/**
-  * STM32F103 - DHT22 & SSD1306 OLED Project
-  * Ege Otto & Safak Tech Özel Versiyon - Hatalar Giderildi
-  */
 /* USER CODE END Header */
 
 #include "main.h"
@@ -213,3 +209,4 @@ void Error_Handler(void) {
   __disable_irq();
   while (1) {}
 }
+
